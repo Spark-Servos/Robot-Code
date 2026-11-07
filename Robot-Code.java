@@ -176,7 +176,7 @@ public class maybeSideways9 extends OpMode {
     void launch() {
         
         launcher.setVelocity(LAUNCHER_TARGET_VELOCITY * voidpad.right_trigger);
-        if (voidpad.left_button){
+        if (voidpad.left_bumper){
             intakePower = (-1) * intakePower;
         }
         // X  and B now ONLY controls windmillServo
